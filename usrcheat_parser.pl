@@ -251,7 +251,7 @@ sub loop_recursively_over_array
 				#cheat0_code = "00007358+000A+100092B8+0007"
 
 				++$cheat_count;
-				$current_cheat_file .= "cheat" . $cheat_count . "_code = \"" . $current_folder_name . "\"\n\n";
+				$current_cheat_file .= "cheat" . $cheat_count . "_desc = \"" . $current_folder_name . "\"\n\n";
 
 				next;
 			}
